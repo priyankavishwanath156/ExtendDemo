@@ -22,7 +22,7 @@ public class OrangeHRM extends BaseClass {
 		driver.findElement(By.id("btnLogin")).click();
 		
 		String actualtitle = driver.getTitle();
-		String expectltitle = "OrangeHRM1";
+		String expectltitle = "OrangeHRM";
 		Assert.assertEquals(actualtitle, expectltitle); 
 	}
 

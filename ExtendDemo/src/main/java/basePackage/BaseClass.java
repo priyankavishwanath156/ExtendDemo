@@ -61,6 +61,8 @@ public class BaseClass {
 	    	    // TODO Auto-generated catch block
 	    	    e.getMessage();
 	    	   }
+	    	   String newImageString = "http://localhost:8080/job/Demo4/ws/ExtendDemo/ScreenShot/"+filename+"_"
+	    			   +dateName+ ".png";
 	    	   return destination;
 	    	  }
 	    	  
